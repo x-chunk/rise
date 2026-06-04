@@ -27,8 +27,8 @@ StartWidget::StartWidget(
 	Window::Theme::Apply(":/gui/Google Day.tdesktop-theme");
 	Window::Theme::KeepApplied();
 	setMouseTracking(true);
-	setTitleText(rpl::single(u"materialgram"_q));
-	setDescriptionText(tr::materialgram_intro_about());
+	setTitleText(rpl::single(u"Rise"_q));
+	setDescriptionText(tr::rise_intro_about());
 	show();
 }
 
